@@ -7,19 +7,19 @@ class basicFormulas:
         print('Constructor is called')
     
     # return voltage based on given resistance and current
-    def Voltage(r, i):
+    def Voltage(resistance, current):
         # Provide resistance in Ohms and current in Amps
-        return r*i
+        return resistance * current
     
     # return Active power based on given voltage, current and power factor
-    def ActivePower(v, i, sinph):
+    def ActivePower(voltage, current, sinph):
         # Provide voltage in Volts, current in Amps and sinph in Degrees
-        return v*i*sinph
+        return voltage * current *sinph
     
     # return Reactive power based on given voltage, current and power factor
-    def ReactivePower(v, i, cosph):
+    def ReactivePower(voltage, current, cosph):
         # Provide voltage in Volts, current in Amps and cosph in Degrees
-        return v*i*cosph
+        return voltage * current *cosph
     
     # return Impedance magnitude based on given resistance, inductive reactance and capacitive reactance
     def ImpedanceMagnitude(resistance, inductiveReactance, capacitiveReactance):
