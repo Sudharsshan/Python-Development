@@ -2,6 +2,9 @@
 
 import math
 class basicFormulas:
+
+    def __init__(self):
+        print('Constructor is called')
     
     # return voltage based on given resistance and current
     def Voltage(r, i):
