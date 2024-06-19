@@ -1,4 +1,4 @@
-# This library consists of basic electrical formulas
+# This library class consists of basic electrical formulas
 
 import math
 class basicFormulas:
