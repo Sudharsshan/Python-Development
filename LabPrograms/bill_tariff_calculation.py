@@ -1,3 +1,7 @@
+''' 
+Date: 19-06-24 
+TASK: A python program to calculate the bill tariff based on simple and block tariff methods
+'''
 from EEE.BESCOMbill import *
 
 # Accept the type of bill
