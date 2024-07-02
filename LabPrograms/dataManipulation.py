@@ -1,3 +1,7 @@
+# Date: 02-07-2024
+# Write a program to train a linear regression model from sklearn
+# obtain the training and prediction dataset from an excel file
+# predict the output from the trained model
 import pandas
 import numpy as np
 from sklearn import linear_model
