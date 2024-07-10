@@ -15,6 +15,10 @@ cursorObject = database.cursor()
 
 #Perform query operation
 cursorObject.execute('SELECT * FROM  subStation')
+obtainedData = cursorObject.fetchall()
+for data in obtainedData:
+    print(data)
+cursorObject = database.cursor()
 
 # Perform update operation
 cursorObject.execute('UPDATE subStation SET `Active Power` = 150 WHERE FeederID=2')
