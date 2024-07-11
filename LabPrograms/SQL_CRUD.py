@@ -23,11 +23,12 @@ cursorObject = database.cursor()
 # Perform update operation
 cursorObject.execute('UPDATE subStation SET `Active Power` = 150 WHERE FeederID=2')
 
+# Perform delete operation
+cursorObject.execute('DELETE FROM subStation WHERE FeederID=3')
+
 # Perform insert operation
 cursorObject.execute('INSERT INTO subStation VALUES(3,\'LOAD\',200,200)')
 
-# Perform delete operation
-cursorObject.execute('DELETE FROM subStation WHERE FeederID=3')
 obtainedData = cursorObject.fetchall()
 for data in obtainedData:
     print(data)
